@@ -18,30 +18,21 @@ A high-resolution FLIR thermal camera was used to conduct the thermal imaging an
 DATA AQUISITION AND DATASET 
 
 Dataset Size: 250 high-quality infrared thermogram images
-
 Image Distribution: 50 images per classification stage (4 stages total) and further augmented to get 250images per stage.
-
 Capture Technology: FLIR thermal camera system
-
 Data Formats:
 16-bit TIFF images for raw pixel data analysis
 32-bit floating TIFF images for lossless radiometric data
-
 Training Split: 80% training / 20% testing for optimal model performance
 
 IMAGE PREPROCESSING TECHNIQUE
 
 The following 5 filters were used for image enhancement 
-
 Bilateral Filter - Noise reduction while preserving edges
-
 CLAHE (Contrast Limited Adaptive Histogram Equalization) - Enhanced contrast optimization
-
 Gamma Transformation - Brightness and contrast adjustment
-
 Thresholding - Binary image segmentation
 Canny Edge Detection - Precise boundary identification
-
 Each filter was optimized for bright spot localization and underwent rigorous accuracy comparison testing to ensure optimal classification performance.
 
 MACHINE LEARNING ARCHITECTURE
@@ -49,21 +40,16 @@ MACHINE LEARNING ARCHITECTURE
 UMAP (Uniform Manifold Approximation and Projection)
 
 Purpose: Dimensionality reduction and feature optimization
-
 Benefits:Prevents overfitting by reducing high-dimensional pixel data
 Preserves topological structure in lower dimensions
 Eliminates noise while extracting critical features
-
 Methodology: Constructs nearest-neighbor graphs to maintain data relationships in reduced dimensions
 
 XGBoost (Extreme Gradient Boosting)
 
 Architecture: Ensemble of decision trees with sequential error correction
-
 Optimization: Utilizes first and second-order gradients for optimal leaf values and tree structure
-
 Performance: Gradient-based loss function minimizes prediction errors iteratively
-
 Advantage: Progressive model improvement through ensemble learning
 
 
