@@ -1,4 +1,4 @@
-# tracking
+# Tracking
 Tracking is a critical phenomenon that occurs in high-voltage transmission and distribution systems. This happens due to the presence of contaminants such as dust, dirt, salt, or any conductive particles on the surface of insulators. This results in the formation of carbon paths and can lead to critical degradation and insulation failure. Failure due to tracking is a major concern when using organic insulating materials due to which several standard analyzing methods were proposed to evaluate tracking. Traditional tracking methods primarily rely on the material’s resistance characteristics, electrical parameters, and visual inspection for carbon track. In the tracking process, the temperature rise due to discharge at the interface can be detected using a thermal camera. It eliminates direct physical interaction with the material.
 
 METHODOLOGY:
